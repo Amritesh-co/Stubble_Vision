@@ -1,0 +1,154 @@
+{
+  "summary": {
+    "total_fires": 4122,
+    "severity": {
+      "low": 1412,
+      "medium": 0,
+      "high": 643
+    }
+  },
+  "fires_over_time": [
+    {
+      "fire_date": "2025-11-01",
+      "count": 380
+    },
+    {
+      "fire_date": "2025-11-02",
+      "count": 438
+    },
+    {
+      "fire_date": "2025-11-03",
+      "count": 319
+    },
+    {
+      "fire_date": "2025-11-04",
+      "count": 439
+    },
+    {
+      "fire_date": "2025-11-05",
+      "count": 566
+    },
+    {
+      "fire_date": "2025-11-06",
+      "count": 329
+    },
+    {
+      "fire_date": "2025-11-07",
+      "count": 301
+    },
+    {
+      "fire_date": "2025-11-08",
+      "count": 407
+    },
+    {
+      "fire_date": "2025-11-09",
+      "count": 516
+    },
+    {
+      "fire_date": "2025-11-10",
+      "count": 427
+    }
+  ],
+  "severity_distribution": [
+    {
+      "severity": "High",
+      "count": 643
+    },
+    {
+      "severity": "Low",
+      "count": 1412
+    },
+    {
+      "severity": "Moderate",
+      "count": 1457
+    },
+    {
+      "severity": "No Data",
+      "count": 12
+    },
+    {
+      "severity": "Unburned / Recovered",
+      "count": 598
+    }
+  ],
+  "severity_vs_time": [
+    {
+      "date": "2025-11-01",
+      "low": 160,
+      "medium": 0,
+      "high": 52
+    },
+    {
+      "date": "2025-11-02",
+      "low": 143,
+      "medium": 0,
+      "high": 62
+    },
+    {
+      "date": "2025-11-03",
+      "low": 96,
+      "medium": 0,
+      "high": 62
+    },
+    {
+      "date": "2025-11-04",
+      "low": 172,
+      "medium": 0,
+      "high": 61
+    },
+    {
+      "date": "2025-11-05",
+      "low": 164,
+      "medium": 0,
+      "high": 84
+    },
+    {
+      "date": "2025-11-06",
+      "low": 118,
+      "medium": 0,
+      "high": 37
+    },
+    {
+      "date": "2025-11-07",
+      "low": 93,
+      "medium": 0,
+      "high": 62
+    },
+    {
+      "date": "2025-11-08",
+      "low": 140,
+      "medium": 0,
+      "high": 55
+    },
+    {
+      "date": "2025-11-09",
+      "low": 182,
+      "medium": 0,
+      "high": 93
+    },
+    {
+      "date": "2025-11-10",
+      "low": 144,
+      "medium": 0,
+      "high": 75
+    }
+  ],
+  "dnbr_distribution": [
+    {
+      "range": "-0.1\u20130.1",
+      "count": 598
+    },
+    {
+      "range": "0.1\u20130.27",
+      "count": 1412
+    },
+    {
+      "range": "0.27\u20130.44",
+      "count": 1457
+    },
+    {
+      "range": ">0.44",
+      "count": 643
+    }
+  ]
+}
