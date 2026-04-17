@@ -523,16 +523,6 @@ sequenceDiagram
     Frontend->>User: 📚 Formula/Definition Blocks
     
     Note over User,API: End-to-End Flow Complete
-
-    classDef userStyle fill:#FF6B9D,stroke:#C2185B,color:#fff,stroke-width:2px
-    classDef frontendStyle fill:#4D96FF,stroke:#1D42A4,color:#fff,stroke-width:2px
-    classDef apiStyle fill:#6BCB77,stroke:#2D6A4F,color:#fff,stroke-width:2px
-    classDef storageStyle fill:#FFD93D,stroke:#F7B801,color:#000,stroke-width:2px
-    
-    class User userStyle
-    class Frontend frontendStyle
-    class API apiStyle
-    class Files storageStyle
 ```
 
 ### 4. Deployment & Runtime Architecture
@@ -642,7 +632,7 @@ graph TB
     Browser -->|Navigates| FrontendURL
     Browser -->|API Calls| BackendURL
     
-    HTTP -->|fetch()| Components
+    HTTP -->|"fetch()"| Components
     CORS_Policy -->|Enables| HTTP
     HealthEndpoint -->|Status| Browser
     
